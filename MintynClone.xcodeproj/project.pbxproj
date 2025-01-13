@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CEE5CDBC2D355217001ED397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE5CD9A2D355215001ED397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE5CDA12D355215001ED397;
+			remoteInfo = MintynClone;
+		};
+		CEE5CDC62D355217001ED397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE5CD9A2D355215001ED397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE5CDA12D355215001ED397;
+			remoteInfo = MintynClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE5CDA22D355215001ED397 /* MintynClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintynClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE5CDBB2D355217001ED397 /* MintynCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintynCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE5CDC52D355217001ED397 /* MintynCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintynCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CEE5CDCD2D355217001ED397 /* Exceptions for "MintynClone" folder in "MintynClone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CEE5CDA12D355215001ED397 /* MintynClone */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CEE5CDA42D355215001ED397 /* MintynClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CEE5CDCD2D355217001ED397 /* Exceptions for "MintynClone" folder in "MintynClone" target */,
+			);
+			path = MintynClone;
+			sourceTree = "<group>";
+		};
+		CEE5CDBE2D355217001ED397 /* MintynCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MintynCloneTests;
+			sourceTree = "<group>";
+		};
+		CEE5CDC82D355217001ED397 /* MintynCloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MintynCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE5CD9F2D355215001ED397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5CDB82D355217001ED397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5CDC22D355217001ED397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE5CD992D355215001ED397 = {
+			isa = PBXGroup;
+			children = (
+				CEE5CDA42D355215001ED397 /* MintynClone */,
+				CEE5CDBE2D355217001ED397 /* MintynCloneTests */,
+				CEE5CDC82D355217001ED397 /* MintynCloneUITests */,
+				CEE5CDA32D355215001ED397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE5CDA32D355215001ED397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CDA22D355215001ED397 /* MintynClone.app */,
+				CEE5CDBB2D355217001ED397 /* MintynCloneTests.xctest */,
+				CEE5CDC52D355217001ED397 /* MintynCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE5CDA12D355215001ED397 /* MintynClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE5CDCE2D355217001ED397 /* Build configuration list for PBXNativeTarget "MintynClone" */;
+			buildPhases = (
+				CEE5CD9E2D355215001ED397 /* Sources */,
+				CEE5CD9F2D355215001ED397 /* Frameworks */,
+				CEE5CDA02D355215001ED397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CEE5CDA42D355215001ED397 /* MintynClone */,
+			);
+			name = MintynClone;
+			packageProductDependencies = (
+			);
+			productName = MintynClone;
+			productReference = CEE5CDA22D355215001ED397 /* MintynClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE5CDBA2D355217001ED397 /* MintynCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE5CDD32D355217001ED397 /* Build configuration list for PBXNativeTarget "MintynCloneTests" */;
+			buildPhases = (
+				CEE5CDB72D355217001ED397 /* Sources */,
+				CEE5CDB82D355217001ED397 /* Frameworks */,
+				CEE5CDB92D355217001ED397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE5CDBD2D355217001ED397 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEE5CDBE2D355217001ED397 /* MintynCloneTests */,
+			);
+			name = MintynCloneTests;
+			packageProductDependencies = (
+			);
+			productName = MintynCloneTests;
+			productReference = CEE5CDBB2D355217001ED397 /* MintynCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE5CDC42D355217001ED397 /* MintynCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE5CDD62D355217001ED397 /* Build configuration list for PBXNativeTarget "MintynCloneUITests" */;
+			buildPhases = (
+				CEE5CDC12D355217001ED397 /* Sources */,
+				CEE5CDC22D355217001ED397 /* Frameworks */,
+				CEE5CDC32D355217001ED397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE5CDC72D355217001ED397 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEE5CDC82D355217001ED397 /* MintynCloneUITests */,
+			);
+			name = MintynCloneUITests;
+			packageProductDependencies = (
+			);
+			productName = MintynCloneUITests;
+			productReference = CEE5CDC52D355217001ED397 /* MintynCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE5CD9A2D355215001ED397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CEE5CDA12D355215001ED397 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CEE5CDBA2D355217001ED397 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CEE5CDA12D355215001ED397;
+					};
+					CEE5CDC42D355217001ED397 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CEE5CDA12D355215001ED397;
+					};
+				};
+			};
+			buildConfigurationList = CEE5CD9D2D355215001ED397 /* Build configuration list for PBXProject "MintynClone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE5CD992D355215001ED397;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CEE5CDA32D355215001ED397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE5CDA12D355215001ED397 /* MintynClone */,
+				CEE5CDBA2D355217001ED397 /* MintynCloneTests */,
+				CEE5CDC42D355217001ED397 /* MintynCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE5CDA02D355215001ED397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5CDB92D355217001ED397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5CDC32D355217001ED397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE5CD9E2D355215001ED397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5CDB72D355217001ED397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5CDC12D355217001ED397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE5CDBD2D355217001ED397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE5CDA12D355215001ED397 /* MintynClone */;
+			targetProxy = CEE5CDBC2D355217001ED397 /* PBXContainerItemProxy */;
+		};
+		CEE5CDC72D355217001ED397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE5CDA12D355215001ED397 /* MintynClone */;
+			targetProxy = CEE5CDC62D355217001ED397 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEE5CDCF2D355217001ED397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C434WNJ57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MintynClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.faith.MintynClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE5CDD02D355217001ED397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C434WNJ57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MintynClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.faith.MintynClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE5CDD12D355217001ED397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE5CDD22D355217001ED397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE5CDD42D355217001ED397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C434WNJ57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.faith.MintynCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MintynClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MintynClone";
+			};
+			name = Debug;
+		};
+		CEE5CDD52D355217001ED397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C434WNJ57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.faith.MintynCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MintynClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MintynClone";
+			};
+			name = Release;
+		};
+		CEE5CDD72D355217001ED397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C434WNJ57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.faith.MintynCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MintynClone;
+			};
+			name = Debug;
+		};
+		CEE5CDD82D355217001ED397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C434WNJ57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.faith.MintynCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MintynClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE5CD9D2D355215001ED397 /* Build configuration list for PBXProject "MintynClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE5CDD12D355217001ED397 /* Debug */,
+				CEE5CDD22D355217001ED397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE5CDCE2D355217001ED397 /* Build configuration list for PBXNativeTarget "MintynClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE5CDCF2D355217001ED397 /* Debug */,
+				CEE5CDD02D355217001ED397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE5CDD32D355217001ED397 /* Build configuration list for PBXNativeTarget "MintynCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE5CDD42D355217001ED397 /* Debug */,
+				CEE5CDD52D355217001ED397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE5CDD62D355217001ED397 /* Build configuration list for PBXNativeTarget "MintynCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE5CDD72D355217001ED397 /* Debug */,
+				CEE5CDD82D355217001ED397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE5CD9A2D355215001ED397 /* Project object */;
+}
