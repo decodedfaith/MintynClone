@@ -1,4 +1,4 @@
-# Mintyn Bank iOS Developer Test
+# Mintyn Bank iOS Clone
 
 This repository contains the implementation of the coding test for the iOS Developer role at Mintyn Bank. The project includes a functional app with three core tabs: **Login**, **Home**, and **Settings**, developed using Swift and UIKit.
 
