@@ -102,7 +102,7 @@
         <scene sceneID="ndM-ve-ZKF">
             <objects>
                 <viewController storyboardIdentifier="LoginViewController" id="dyL-Gz-avQ" customClass="LoginViewController" customModule="MintynClone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="mHg-Tv-gCZ">
+                    <view key="view" contentMode="scaleToFill" id="mHg-Tv-gCZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -225,8 +225,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" ambiguous="YES" showsVerticalScrollIndicator="NO" indicatorStyle="white" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUk-dn-QJ9">
-                                <rect key="frame" x="0.0" y="137" width="393" height="160"/>
+                            <scrollView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" showsVerticalScrollIndicator="NO" indicatorStyle="white" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUk-dn-QJ9">
+                                <rect key="frame" x="0.0" y="346" width="393" height="160"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pPu-FO-a9e" userLabel="contentView">
                                         <rect key="frame" x="0.0" y="0.0" width="789" height="160"/>
@@ -379,10 +379,10 @@
             </objects>
             <point key="canvasLocation" x="-25" y="3"/>
         </scene>
-        <!--View Controller-->
+        <!--Homepage View Controller-->
         <scene sceneID="cxJ-Bm-Ngk">
             <objects>
-                <viewController id="TWa-w4-KBJ" sceneMemberID="viewController">
+                <viewController id="TWa-w4-KBJ" userLabel="Homepage View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1dc-r0-va3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
