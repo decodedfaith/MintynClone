@@ -7,10 +7,10 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-    @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var phoneNumberTextField: UITextField!
-    @IBAction func LoginButtonTapped(_ sender: UIButton) {
+  
+    @IBAction func loginPressed(_ sender: Any) {
+        performSegue(withIdentifier: "goToHomepage", sender: self)
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
