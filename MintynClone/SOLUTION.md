@@ -1,8 +1,11 @@
 ### Completed Features
 - Implemented Login screen and Homepage.
+- Mock login functionality to transition from Login to Home.
+- Settings tab includes functional Legal, System, and Logout options.
 
-- Working on Mocking login functionality to transition from Login to Home.
-- Working on Settings tab includes functional Legal, System, and Logout options.
+### Mock Credentials
+- **Phone Number**: `9034256272`
+- **Password**: `securePassword123`
 
 ### Potential Refactors and Enhancements
 1. **Code Organization**:
@@ -17,17 +20,14 @@
 5. **Testing**:
    - Add unit tests for core functionalities like login validation and user session management.
 
-
 ### UI/UX Enhancements
 - Add animations for smoother transitions between screens.
 - Improve visual hierarchy and spacing for better readability.
 - Include loading indicators during login to enhance user feedback.
 
-
 ### Performance Optimizations
 - Optimize image assets for faster loading.
 - Use lazy loading for data-heavy screens like Home.
-
 
 ### Additional Features
 - Implement a secure password reset flow.
