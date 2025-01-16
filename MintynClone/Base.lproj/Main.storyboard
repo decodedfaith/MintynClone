@@ -102,7 +102,7 @@
         <scene sceneID="ndM-ve-ZKF">
             <objects>
                 <viewController storyboardIdentifier="LoginViewController" id="dyL-Gz-avQ" customClass="LoginViewController" customModule="MintynClone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mHg-Tv-gCZ">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="mHg-Tv-gCZ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -143,11 +143,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="******" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vr9-3y-LVs">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="******" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="Vr9-3y-LVs">
                                         <rect key="frame" x="17" y="132" width="358" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" selected="YES" keyboardKey="YES"/>
+                                        </accessibility>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" smartDashesType="yes" textContentType="password"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartDashesType="yes" textContentType="password"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypM-Ph-mxO">
                                         <rect key="frame" x="17" y="34" width="85" height="15"/>
@@ -199,6 +202,9 @@
                                             <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="802 123 4567" textAlignment="natural" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="45" sizingRule="oversize" translatesAutoresizingMaskIntoConstraints="NO" id="rAu-qb-0Ek">
                                                 <rect key="frame" x="58" y="0.0" width="300" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" selected="YES" keyboardKey="YES"/>
+                                                </accessibility>
                                                 <color key="textColor" systemColor="systemGray2Color"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="tel"/>
@@ -213,6 +219,9 @@
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzU-Dz-hfA">
                                         <rect key="frame" x="148" y="34" width="189" height="15"/>
@@ -222,7 +231,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <viewLayoutGuide key="safeArea" id="Fhd-CT-D5Y"/>
+                                <viewLayoutGuide key="safeArea" id="F0R-UZ-nbi"/>
+                                <keyboardLayoutGuide key="keyboard" id="Ef3-5C-4rr"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uK-A1-sVy">
@@ -232,7 +242,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" misplaced="YES" showsVerticalScrollIndicator="NO" indicatorStyle="white" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUk-dn-QJ9">
+                            <scrollView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" showsVerticalScrollIndicator="NO" indicatorStyle="white" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUk-dn-QJ9">
                                 <rect key="frame" x="-3" y="136" width="393" height="160"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pPu-FO-a9e" userLabel="contentView">
@@ -372,6 +382,7 @@
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uHp-k8-QBg"/>
+                        <keyboardLayoutGuide key="keyboard" id="dci-Qh-tzj"/>
                         <color key="backgroundColor" red="0.95866221005154639" green="0.95866221005154639" blue="0.95866221005154639" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="ZUk-dn-QJ9" secondAttribute="bottom" constant="570" id="4Ck-PZ-cSw"/>
@@ -407,7 +418,7 @@
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <items>
                                     <tabBarItem title="Home" id="kfy-e2-dRj">
-                                        <imageReference key="image" image="house.fill" catalog="system" renderingMode="hierarchical">
+                                        <imageReference key="image" image="house.fill" catalog="system" symbolScale="medium" renderingMode="hierarchical">
                                             <hierarchicalColors>
                                                 <color systemColor="labelColor"/>
                                                 <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -415,7 +426,7 @@
                                             </hierarchicalColors>
                                         </imageReference>
                                         <color key="badgeColor" systemColor="systemBrownColor"/>
-                                        <imageReference key="selectedImage" image="house.fill" catalog="system" symbolScale="default" renderingMode="hierarchical">
+                                        <imageReference key="selectedImage" image="house.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                             <hierarchicalColors>
                                                 <color systemColor="systemBrownColor"/>
                                                 <color systemColor="systemBrownColor"/>
@@ -423,7 +434,8 @@
                                             </hierarchicalColors>
                                         </imageReference>
                                     </tabBarItem>
-                                    <tabBarItem title="Invest" image="chart.bar.xaxis" catalog="system" id="heU-5J-WkY">
+                                    <tabBarItem title="Invest" id="heU-5J-WkY">
+                                        <imageReference key="image" image="chart.bar.xaxis" catalog="system" symbolScale="medium"/>
                                         <imageReference key="selectedImage" image="chart.bar.xaxis" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                             <hierarchicalColors>
                                                 <color systemColor="systemBrownColor"/>
@@ -433,14 +445,40 @@
                                         </imageReference>
                                     </tabBarItem>
                                     <tabBarItem title="Menu" id="1PA-ti-nCW">
-                                        <imageReference key="image" image="command.circle.fill" catalog="system" renderingMode="hierarchical-single">
+                                        <imageReference key="image" image="command.circle.fill" catalog="system" symbolScale="medium" renderingMode="hierarchical">
                                             <hierarchicalColors>
-                                                <color systemColor="systemBrownColor"/>
+                                                <color systemColor="labelColor"/>
                                                 <color systemColor="secondaryLabelColor"/>
                                                 <color systemColor="tertiaryLabelColor"/>
                                             </hierarchicalColors>
                                         </imageReference>
-                                        <imageReference key="selectedImage" image="command.circle.fill" catalog="system" renderingMode="hierarchical-single">
+                                        <imageReference key="selectedImage" image="command.circle.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                            <hierarchicalColors>
+                                                <color systemColor="systemBrownColor"/>
+                                                <color systemColor="systemBrownColor"/>
+                                                <color systemColor="systemBrownColor"/>
+                                            </hierarchicalColors>
+                                        </imageReference>
+                                    </tabBarItem>
+                                    <tabBarItem title="Transactions" id="8v4-v6-9wY">
+                                        <imageReference key="image" image="wallet.bifold.fill" catalog="system" symbolScale="medium" renderingMode="hierarchical">
+                                            <hierarchicalColors>
+                                                <color systemColor="systemBrownColor"/>
+                                                <color systemColor="systemBrownColor"/>
+                                                <color systemColor="systemBrownColor"/>
+                                            </hierarchicalColors>
+                                        </imageReference>
+                                        <imageReference key="selectedImage" image="wallet.bifold.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                            <hierarchicalColors>
+                                                <color systemColor="systemBrownColor"/>
+                                                <color systemColor="systemBrownColor"/>
+                                                <color systemColor="systemBrownColor"/>
+                                            </hierarchicalColors>
+                                        </imageReference>
+                                    </tabBarItem>
+                                    <tabBarItem title="Settings" id="crU-wD-1vh">
+                                        <imageReference key="image" image="gearshape.fill" catalog="system" symbolScale="medium"/>
+                                        <imageReference key="selectedImage" image="gearshape.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
                                             <hierarchicalColors>
                                                 <color systemColor="systemBrownColor"/>
                                                 <color systemColor="secondaryLabelColor"/>
@@ -448,8 +486,6 @@
                                             </hierarchicalColors>
                                         </imageReference>
                                     </tabBarItem>
-                                    <tabBarItem title="Transactions" image="wallet.bifold.fill" catalog="system" id="8v4-v6-9wY"/>
-                                    <tabBarItem title="Settings" image="gearshape.fill" catalog="system" id="crU-wD-1vh"/>
                                 </items>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
                                 <color key="selectedImageTintColor" systemColor="systemBrownColor"/>
@@ -462,11 +498,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                         <subviews>
                                             <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fKW-8F-njv" userLabel="BalanceAndTypeView">
-                                                <rect key="frame" x="45" y="127" width="306" height="144"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <rect key="frame" x="66" y="126" width="259" height="144"/>
+                                                <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lth-MH-CbN">
-                                                        <rect key="frame" x="51" y="26" width="154" height="58"/>
+                                                        <rect key="frame" x="51" y="26" width="107" height="58"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -482,7 +518,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXC-Vl-sSI">
-                                                        <rect key="frame" x="145" y="26" width="97" height="58"/>
+                                                        <rect key="frame" x="145" y="26" width="50" height="58"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain">
@@ -497,7 +533,7 @@
                                                         </buttonConfiguration>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Individual" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMA-PB-Fei">
-                                                        <rect key="frame" x="14" y="71" width="120" height="65"/>
+                                                        <rect key="frame" x="14" y="71" width="73" height="65"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -520,14 +556,14 @@
                                                         </buttonConfiguration>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1123325476" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="2" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="puW-Pt-3EC">
-                                                        <rect key="frame" x="80" y="71" width="131" height="64"/>
+                                                        <rect key="frame" x="80" y="71" width="84" height="64"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCz-GT-IGj">
-                                                        <rect key="frame" x="160" y="71" width="142" height="64"/>
+                                                        <rect key="frame" x="160" y="71" width="95" height="64"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -556,7 +592,7 @@
                                                         </buttonConfiguration>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <variation key="default">
                                                     <mask key="subviews">
                                                         <exclude reference="5b9-Dl-Hfx"/>
