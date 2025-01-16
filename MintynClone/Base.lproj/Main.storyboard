@@ -75,7 +75,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Frame-svg" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-4m-38L">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mintyn_LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-4m-38L">
                                 <rect key="frame" x="88" y="194" width="237" height="104"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -86,7 +86,7 @@
                             </containerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.92869238582347657" green="0.93742819722843218" blue="0.963635631443299" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="f96-pm-YCL"/>
@@ -1022,7 +1022,6 @@
     </scenes>
     <resources>
         <image name="2.circle.ar" catalog="system" width="128" height="123"/>
-        <image name="Frame-svg" width="135" height="54"/>
         <image name="arrow.left.arrow.right" catalog="system" width="120" height="128"/>
         <image name="bell.badge" catalog="system" width="117" height="128"/>
         <image name="chart.bar.xaxis" catalog="system" width="128" height="97"/>
@@ -1036,6 +1035,7 @@
         <image name="info.circle.fill" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="mintyn-Logo" width="287" height="182"/>
+        <image name="mintyn_LOGO" width="473" height="402"/>
         <image name="mintyn_briefcase" width="224" height="181"/>
         <image name="mintyn_cart" width="277" height="212"/>
         <image name="mintyn_moneybag" width="180" height="185"/>
@@ -1078,6 +1078,9 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
