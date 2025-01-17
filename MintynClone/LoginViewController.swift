@@ -62,7 +62,7 @@ class LoginViewController: UIViewController {
                 self?.loginButton.isEnabled = true
                 
                 if success {
-                    self?.navigateToHomeScreen()
+                    self?.navigateToHomeTabbarScreen()
                 } else if let errorMessage = errorMessage {
                     self?.displayError(message: errorMessage)
                 }
@@ -111,10 +111,10 @@ class LoginViewController: UIViewController {
     }
     
     // Navigation logic
-    func navigateToHomeScreen() {
+    func navigateToHomeTabbarScreen() {
         // Assuming a storyboard ID for the Home screen's ViewController is "HomeViewController"
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        if let homeVC = storyboard.instantiateViewController(withIdentifier: "HomepageViewController") as? HomepageViewController {
+        if let homeVC = storyboard.instantiateViewController(withIdentifier: "CustomTabBarController") as? CustomTabBarController {
             homeVC.modalTransitionStyle = .crossDissolve
             homeVC.modalPresentationStyle = .fullScreen
             present(homeVC, animated: true, completion: nil)
