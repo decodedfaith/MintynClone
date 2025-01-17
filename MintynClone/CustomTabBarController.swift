@@ -13,9 +13,9 @@ class CustomTabBarController: UITabBarController {
         super.viewDidLoad()
 
         // Change the selected item title color
-        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.red], for: .selected)
+        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.brown], for: .selected)
 
         // Change the unselected item title color
-        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.gray], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.black], for: .normal)
     }
 }
