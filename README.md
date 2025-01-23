@@ -108,7 +108,11 @@ Once the app is launched, users can:
 ## Screenshots
 <img width="404" alt="homepage" src="https://github.com/user-attachments/assets/619ec8de-456b-408d-a9dd-9fdac505e888" />
 <img width="417" alt="loginpage" src="https://github.com/user-attachments/assets/28d3b5b3-9f23-4200-bd48-ff4e110ec75b" />
-<img width="411" alt="login:signuppage" src="https://github.com/user-attachments/assets/c6778505-a891-4612-893b-e6be1ea5d842" />
+<img width="411" alt="login:signuppage" src="https://github.com/user-attachments/assets/c6778505-a891-4612-![Uploading settingsPage.png…]()
+893b-e6be1ea5d842" />
+<img width="415" alt="logoutView" src="https://github.com/user-attachments/assets/12ca4a08-af65-4a09-a559-e7731f7364ff" />
+<img width="418" alt="settingsPage" src="https://github.com/user-attachments/assets/c2b08c22-c30b-4026-8ed1-fbb98091d93d" />
+893b-e6be1ea5d842" />
 
 
 
